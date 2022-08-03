@@ -1,0 +1,23 @@
+{
+    "name": "inwchun/hanpass",
+    "description": "A simple PHP WebAuthn server library",
+    "keywords": [
+        "webauthn", "authentication"
+    ],
+    "homepage": "https://github.com/inwchun/webauth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inwhan Chun",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "inwchun\\HanPass\\": "src"
+        }
+    }
+}
